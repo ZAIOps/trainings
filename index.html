@@ -54,6 +54,21 @@
       defer=""
     ></script>
     <style type="text/css">
+	.line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.line::before,
+	.line::after {
+	content: "";
+	width: 50%;
+	height: 1px;
+	background-color: #ccc;
+	
+	}
+
       img.wp-smiley,
       img.emoji {
         display: inline !important;
@@ -202,6 +217,11 @@
   >
     
     <style>
+	.horizontal-line {
+	  border-bottom: 1px solid black; 
+	  text-align: center;
+	  padding: 0 5px; 
+}
       .code_p_announcement .code_content__wrap {
         background: #4178be;
         position: relative;
@@ -355,7 +375,7 @@
                       data-items=".ibm-card"
                       data-widget="setsameheight"
                     >
-                      <div class="card-equal ibm-col-12-4 ibm-col-medium-12-12 ibm-col-sm-12-12">
+                      <div class="card-equal ibm-col-12-6 ibm-col-medium-12-6 ibm-col-sm-12-12">
                         <div class="ibm-card" style="height: 250px;">
                           <div class="ibm-card__content">
                             <h3 class="ibm-h3">
@@ -364,7 +384,11 @@
                             <p>
                                 In this course, you will learn what Z ChatOps is, how to plan for the environment, how to use Z ChatOps, etc. through multiple types of learning materials, such as videos, interactive content, documents and so on.
                             </p>
-                            
+                            <div class="line">
+							<span style="color: grey; font-size: 13px"><i>Feedback</i></span>
+                            </div>
+							<p style="color: grey; font-size: 13px"><i>"The information was all well explained in very detail."<br />"I thought it was very good, it gives a lot ofhelp when trying to learn and at the sametime presents some small tests to testknowledge."<br />"They give a lot of very importantinformation, which helps to understand many topics. "</p>
+							
                           </div>
                           <div class="ibm-card__bottom">
                             <p class="ibm-btn-row">
@@ -376,12 +400,18 @@
                         </div>
                       </div>
 
-                      <div class="card-equal ibm-col-12-4 ibm-col-medium-12-6 ibm-col-sm-12-12">
+                      <div class="card-equal ibm-col-12-6 ibm-col-medium-12-6 ibm-col-sm-12-12">
                         <div class="ibm-card" style="height: 250px;">
                           <div class="ibm-card__content">
                             <h3 class="ibm-h3">Getting to know IBM Z Operational Log and Data Analytics</h3>
                             <p>In this course, you will learn how Z Operational Log and Data Analytics achieves near real-time incident identification and enhances availability across a hybrid cloud environment.</p>
-                          </div>
+                            <div class="line">
+							<span style="color: grey; font-size: 13px"><i>Feedback</i></span>
+                            </div>
+							<p style="color: grey; font-size: 13px"><i>"This is a very good course on ZLDA. I like the modules and the contents are organized nicely and easy for me to consume. The quiz allows me to reinforce my knowledge as I progress through the course by actively being engaged in the materials and not just passively reading through it. "</p>
+						  
+						  </div>
+						  
                           <div class="ibm-card__bottom">
                             <p class="ibm-btn-row">
                               <a href="https://learn.ibm.com/course/view.php?id=12017" class="ibm-btn-pri ibm-btn-teal-50">
@@ -392,12 +422,19 @@
                         </div>
                       </div>
 
-                      <div class="card-equal ibm-col-12-4 ibm-col-medium-12-6 ibm-col-sm-12-12" >
+                      <div class="card-equal ibm-col-12-6 ibm-col-medium-12-6 ibm-col-sm-12-12" >
                         <div class="ibm-card" style="height: 250px;">
                           <div class="ibm-card__content">
                             <h3 class="ibm-h3">Working with Integration Components of IBM Z System Automation</h3>
                             <p>In this course, you will learn the integration components to integrate System Automation operations with many IT operation and management tools available on the market today, such as Zowe or Red Hat Ansible. </p>
-                          </div>
+                            <div class="line">
+							<span style="color: grey; font-size: 13px"><i>Feedback</i></span>
+                            </div>
+							<p style="color: grey; font-size: 13px"><i>"I found the course extremely helpful in understanding the areas not currently exploited in our environment. It also gave an excellent introduction to Zowe CLI." </p>
+							<!--<p style="text-align: right; color: grey; font-size: 13px"><i>- Feeback from John Deere</i></p>-->
+						  
+						  </div>
+						 					  
                           <div class="ibm-card__bottom">
                             <p class="ibm-btn-row">
                               <a href="https://learn.ibm.com/course/view.php?id=12794" class="ibm-btn-pri ibm-btn-teal-50">
@@ -408,12 +445,17 @@
                         </div>
                       </div>
                       
-                      <div class="card-equal ibm-col-12-4 ibm-col-medium-12-6 ibm-col-sm-12-12">
+                      <div class="card-equal ibm-col-12-6 ibm-col-medium-12-6 ibm-col-sm-12-12">
                         <div class="ibm-card" style="height: 250px;">
                           <div class="ibm-card__content">
                             <h3 class="ibm-h3">Z APM Connect Fundamentals V6.1</h3>
                             <p>In this course, you will learn the features and components, typical user scenarios, the supported transaction tracking and required installation and configuration for tracking CICS-related transactions.</p>
-                          </div>
+                           <div class="line">
+							<span style="color: grey; font-size: 13px"><i>Feedback</i></span>
+                            </div>
+							<p style="color: grey; font-size: 13px"><i>"The course was engaging and had a good mixture of quizzes, reading and videos to keep it fresh!" <br />"Very smooth and has plenty of information. So easy it can be done on a phone. "</p>
+							 
+						  </div>
                           <div class="ibm-card__bottom">
                             <p class="ibm-btn-row">
                               <a href="https://learn.ibm.com/course/view.php?id=10674" class="ibm-btn-pri ibm-btn-teal-50">
@@ -424,7 +466,7 @@
                         </div>
                       </div>
 
-                      <div class="card-equal ibm-col-12-4 ibm-col-medium-12-6 ibm-col-sm-12-12">
+                      <div class="card-equal ibm-col-12-6 ibm-col-medium-12-6 ibm-col-sm-12-12">
                         <div class="ibm-card" style="height: 250px;">
                           <div class="ibm-card__content">
 
@@ -443,7 +485,7 @@
                         </div>
                       </div>
 
-                      <div class="card-equal ibm-col-12-4 ibm-col-medium-12-6 ibm-col-sm-12-12">
+                      <div class="card-equal ibm-col-12-6 ibm-col-medium-12-6 ibm-col-sm-12-12">
                         <div class="ibm-card" style="height: 250px;">
                           <div class="ibm-card__content">
                             <h3 class="ibm-h3">Product name
@@ -461,7 +503,7 @@
                         </div>
                       </div>
 
-                      <div class="card-equal ibm-col-12-4 ibm-col-medium-12-6 ibm-col-sm-12-12">
+                      <div class="card-equal ibm-col-12-6 ibm-col-medium-12-6 ibm-col-sm-12-12">
                         <div class="ibm-card" style="height: 250px;">
                           <div class="ibm-card__content">
                             <h3 class="ibm-h3">Product name
